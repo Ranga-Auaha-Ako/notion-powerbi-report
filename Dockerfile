@@ -9,5 +9,4 @@ ENV TZ="Pacific/Auckland"
 # Runs with defualt port 80
 # ENV MAX_WORKERS 1
 
-RUN chmod +x /app/start.sh
-CMD ["/app/start.sh"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
