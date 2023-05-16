@@ -9,4 +9,5 @@ ENV TZ="Pacific/Auckland"
 # Runs with defualt port 80
 # ENV MAX_WORKERS 1
 
-RUN python src/updateNotion.py
+RUN chmod +x /app/start.sh
+CMD ["/app/start.sh"]
