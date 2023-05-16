@@ -1,5 +1,5 @@
-# FROM flyingjoe/uvicorn-gunicorn-fastapi:python3.10
-FROM python:3.10
+FROM flyingjoe/uvicorn-gunicorn-fastapi:python3.10
+# FROM python:3.10
 
 COPY ./requirements.txt /app
 RUN pip install -r ./requirements.txt
