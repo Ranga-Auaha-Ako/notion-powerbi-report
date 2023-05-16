@@ -10,3 +10,4 @@ backoff
 tqdm
 requests
 cachier
+diskcache
