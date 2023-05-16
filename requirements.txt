@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+canvasapi
+notion-client
+glom
+aiolimiter
+backoff
+tqdm
+requests
+cachier
