@@ -2,7 +2,6 @@ fastapi
 uvicorn
 gunicorn
 python-dotenv
-canvasapi
 notion-client
 glom
 aiolimiter
