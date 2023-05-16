@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir --upgrade -r ./requirements.txt
 COPY ./src/ /app
 ENV TZ="Pacific/Auckland"
 # Runs with defualt port 80
-# ENV MAX_WORKERS 1
+ENV MAX_WORKERS 1
